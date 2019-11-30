@@ -52,20 +52,19 @@ ul > li.nav-item > a.nav-link {
     font-size: 32px;
     line-height: 22px;
     padding-bottom: 0px;
-}
-
-ul > li.nav-item > a.nav-link.active {
-    background-color: black;
+    z-index: 50;
+    position: relative;
+    background-color: #272b23;
 }
 
 li.nav-item.active::before {
     content: "";
     position: absolute;
     background: #272b23;
-    width: 40%;
+    width: 80%;
     height: 22px;
     top: 18px;
-    left: 70px;
+    left: 0px;
     border-left: 2px solid;
     border-right: 2px solid;
     border-top: 2px solid;
@@ -82,8 +81,18 @@ li.nav-item.active::before {
 }
 
 .navbar-light .navbar-nav > li.nav-item > a.nav-link {
-    width: 50%;
-    margin: auto;
+    margin: 0px;
+}
+
+.nav.nav-tabs {
+    margin: 30px;
+    border-bottom: none;
+
+}
+
+.nav.nav-tabs > .nav-item > .nav-link {
+    border: 1px solid transparent;
+    background-color: #272b23;
 }
 
 .center-image img {
@@ -100,4 +109,53 @@ li.nav-item.active::before {
     bottom: 0;
     width: calc(100% - 20px);
     margin: 10px;
+}
+
+.navbar.navbar-light .navbar-nav {
+    margin: 0px 200px;
+}
+
+.navbar.navbar-light .navbar-nav > li {
+    padding: 0px 20px;
+}
+
+.nav.nav-tabs > li > a {
+    font-size: 26px !important;
+    padding: 5px 10px;
+}
+
+.nav.nav-tabs > li:nth-child(2) > a {
+    opacity: .5;
+}
+
+.nav.nav-tabs > li:nth-child(3) > a {
+    opacity: .2;
+}
+
+.container.pip-footer {
+    max-width: 100%;
+}
+
+.level-progress {
+    width: 70%;
+    height: 10px;
+    border: 2px solid;
+    display: inline-block;
+}
+
+.level-progress-indicator {
+    height: 6px;
+    position: relative;
+    width: 70%;
+    background: #00F700;
+}
+
+.pip-footer .col-3,
+.pip-footer .col-6 {
+    background: rgba(16, 255, 0, 0.15);
+}
+
+.pip-footer .col-6 {
+    margin: 0px 5px;
+    flex: 0 0 48%;
 }

@@ -32,37 +32,45 @@
             </div>
         </nav>
 
-        <ul class="nav nav-tabs">
-            <li class="nav-item">
-                <a class="nav-link" href="#status" data-toggle="tab" role="tab">
-                    STATUS
-                </a>
-            </li>
-            <li class="nav-item">
-                <a href="#special" class="nav-link" data-toggle="tab">
-                    SPECIAL
-                </a>
-            </li>
-            <li class="nav-item">
-                <a href="#perks" class="nav-link" data-toggle="tab">
-                    PERKS
-                </a>
-            </li>
-        </ul>
-        
-        <div class="tab-content">
-            <div class="tab-pane active" id="status" role="tabpanel">
-                <div class="center-image">
-                    <img src="vaultBoy.png" alt="Vault Boy">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <ul class="nav nav-tabs">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#status" data-toggle="tab" role="tab">
+                                STATUS
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#special" class="nav-link" data-toggle="tab">
+                                SPECIAL
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#perks" class="nav-link" data-toggle="tab">
+                                PERKS
+                            </a>
+                        </li>
+                    </ul>
+                        
+                    <div class="tab-content">
+                        <div class="tab-pane active" id="status" role="tabpanel">
+                            <div class="center-image">
+                                <img src="vaultBoy.png" alt="Vault Boy">
+                            </div>
+                        </div>
+                        <div class="tab-pane" id="special" role="tabpanel">
+                            SPECIAL
+                        </div>
+                        <div class="tab-pane" id="perks" role="tabpanel">
+                            PERKS
+                        </div>
+                    </div>
                 </div>
             </div>
-            <div class="tab-pane" id="special" role="tabpanel">
-                SPECIAL
-            </div>
-            <div class="tab-pane" id="perks" role="tabpanel">
-                PERKS
-            </div>
         </div>
+
+        
 
         <div class="container pip-footer">
             <div class="row">
@@ -70,8 +78,12 @@
                     HP 90/90
                 </div>
                 <div class="col-6">
-                    LEVEL 1
-                    <div class="level-progress"></div>
+                    <span>LEVEL 1</span>
+                    <div class="level-progress">
+                        <div class="level-progress-indicator">
+
+                        </div>
+                    </div>
                 </div>
                 <div class="col-3">
                     AP 50/50
