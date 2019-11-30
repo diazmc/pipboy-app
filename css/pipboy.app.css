@@ -85,7 +85,6 @@ li.nav-item.active::before {
 }
 
 .nav.nav-tabs {
-    margin: 30px;
     border-bottom: none;
 
 }
@@ -95,12 +94,17 @@ li.nav-item.active::before {
     background-color: #272b23;
 }
 
+.center-image {
+    position: absolute;
+    margin: 0px;
+}
+
 .center-image img {
     margin: auto;
+    margin-top: 20px;
     display: block;
     position: relative;
     max-height: 300px;
-    margin-top: 100px;
     filter: grayscale(1) sepia(100%) hue-rotate(55deg) saturate(7) brightness(1) contrast(2);
 }
 
@@ -158,4 +162,53 @@ li.nav-item.active::before {
 .pip-footer .col-6 {
     margin: 0px 5px;
     flex: 0 0 48%;
+}
+
+.stat-bar {
+    width: 60px;
+    margin: auto;
+}
+
+.stat-bars > .row {
+    margin-bottom: 100px;
+}
+#status {
+    max-width: 400px;
+    margin: auto;
+}
+
+.w10 {
+    width: 10%;
+}
+
+.w20 {
+    width: 20%;
+}
+
+.w30 {
+    width: 30%;
+}
+
+.w40 {
+    width: 40%;
+}
+
+.w50 {
+    width: 50%;
+}
+
+.w60 {
+    width: 60%;
+}
+
+.w70 {
+    width: 70%;
+}
+
+.w80 {
+    width: 80%;
+}
+
+.w90 {
+    width: 90%;
 }
