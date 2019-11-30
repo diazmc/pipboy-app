@@ -276,3 +276,20 @@ li.nav-item.active::before {
     color: #272b23;
     text-decoration: none;
 }
+
+.tab-pane.full {
+    height: calc(100vh - 180px);
+}
+
+.item-stats {
+    position: absolute;
+    right: 0px;
+    bottom: 50px;
+    width: 200px;
+}
+
+.item-stats .row .col-12 {
+    background: rgba(16, 255, 0, 0.15);
+    margin-bottom: 2px;
+}
+
