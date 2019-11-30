@@ -269,12 +269,28 @@ li.nav-item.active::before {
     padding: 5px 10px;
     border-radius: 2px;
     color: #00F700;
+    padding-left: 25px;
 }
 
 .item-list li a:hover {
     background: #00F700;
     color: #272b23;
     text-decoration: none;
+}
+
+.item-list li a.active::before {
+    content: "";
+    display: block;
+    position: absolute;
+    height: 10px;
+    width: 10px;
+    background: #00F700;
+    left: 25px;
+    margin-top: 7px;   
+}
+
+.item-list li a.active:hover::before {
+    background: #272b23;
 }
 
 .tab-pane.full {
