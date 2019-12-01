@@ -34,7 +34,7 @@ $(document).ready(function() {
         "accuracy": 72,
         "weight": 12.8,
         "value": 136,
-        "img": "../weapons/handmade_rifle.png"
+        "img": "./weapons/handmade_rifle.png"
         },
         {"name": "the_problem_solver",
         "damage": 57,
@@ -43,7 +43,7 @@ $(document).ready(function() {
         "accuracy": 92,
         "weight": 13.1,
         "value": 149,
-        "img": "../weapons/the_problem_solver.png"
+        "img": "./weapons/the_problem_solver.png"
         },
         {"name": "combat_shotgun",
         "damage": 50,
@@ -52,7 +52,7 @@ $(document).ready(function() {
         "accuracy": 23,
         "weight": 11.1,
         "value": 87,
-        "img": "../weapons/combat_shotgun.png"
+        "img": "./weapons/combat_shotgun.png"
         },
         {"name": "big_boy",
         "damage": 486,
@@ -61,7 +61,7 @@ $(document).ready(function() {
         "accuracy": 39,
         "weight": 30.7,
         "value": 512,
-        "img": "../weapons/big_boy.png"
+        "img": "./weapons/big_boy.png"
         },
         {"name": "missile_launcher",
         "damage": 150,
@@ -70,7 +70,7 @@ $(document).ready(function() {
         "accuracy": 65,
         "weight": 21,
         "value": 314,
-        "img": "../weapons/missile_launcher.png"
+        "img": "./weapons/missile_launcher.png"
         },
         {"name": "overseers_guardian",
         "damage": 55,
@@ -79,7 +79,7 @@ $(document).ready(function() {
         "accuracy": 76,
         "weight": 11.1,
         "value": 117,
-        "img": "../weapons/overseers_guardian.png"
+        "img": "./weapons/overseers_guardian.png"
         }
     ];
 
