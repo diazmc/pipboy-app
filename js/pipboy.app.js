@@ -7,7 +7,7 @@ $(document).ready(function() {
         "accuracy": 66,
         "weight": 4.2,
         "value": 99,
-        "img": "../weapons/44_pistol.png"
+        "img": "./weapons/44_pistol.png"
         },
         {"name": "10mm_pistol",
         "damage": 18,
@@ -16,7 +16,7 @@ $(document).ready(function() {
         "accuracy": 61,
         "weight": 4.2,
         "value": 53,
-        "img": "../weapons/10mm_pistol.png"
+        "img": "./weapons/10mm_pistol.png"
         },
         {"name": "assault_rifle",
         "damage": 30,
@@ -25,7 +25,7 @@ $(document).ready(function() {
         "accuracy": 72,
         "weight": 13.1,
         "value": 144,
-        "img": "../weapons/assault_rifle.png"
+        "img": "./weapons/assault_rifle.png"
         },
         {"name": "handmade_rifle",
         "damage": 32,
