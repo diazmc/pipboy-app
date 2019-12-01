@@ -341,6 +341,17 @@ li.nav-item.active::before {
     height: calc(100vh - 180px);
 }
 
+.weapons {
+    position: absolute;
+    right: 50px;
+    width: 550px;
+}
+
+.weapons .weapon-img {
+    max-width: 100%;
+    filter: grayscale(1) sepia(100%) hue-rotate(55deg) saturate(7) brightness(1) contrast(2);
+}
+
 .item-stats {
     position: absolute;
     right: 0px;
