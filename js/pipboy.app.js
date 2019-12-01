@@ -7,7 +7,7 @@ $(document).ready(function() {
         "accuracy": 66,
         "weight": 4.2,
         "value": 99,
-        "img": "../weapons/44_pistol.webp"
+        "img": "../weapons/44_pistol.png"
         },
         {"name": "10mm_pistol",
         "damage": 18,
@@ -16,7 +16,7 @@ $(document).ready(function() {
         "accuracy": 61,
         "weight": 4.2,
         "value": 53,
-        "img": "../weapons/10mm_pistol.webp"
+        "img": "../weapons/10mm_pistol.png"
         },
         {"name": "assault_rifle",
         "damage": 30,
@@ -25,7 +25,7 @@ $(document).ready(function() {
         "accuracy": 72,
         "weight": 13.1,
         "value": 144,
-        "img": "../weapons/assault_rifle.webp"
+        "img": "../weapons/assault_rifle.png"
         },
         {"name": "handmade_rifle",
         "damage": 32,
@@ -34,7 +34,7 @@ $(document).ready(function() {
         "accuracy": 72,
         "weight": 12.8,
         "value": 136,
-        "img": "../weapons/handmade_rifle.webp"
+        "img": "../weapons/handmade_rifle.png"
         },
         {"name": "the_problem_solver",
         "damage": 57,
@@ -43,7 +43,7 @@ $(document).ready(function() {
         "accuracy": 92,
         "weight": 13.1,
         "value": 149,
-        "img": "../weapons/the_problem_solver.webp"
+        "img": "../weapons/the_problem_solver.png"
         },
         {"name": "combat_shotgun",
         "damage": 50,
@@ -52,7 +52,7 @@ $(document).ready(function() {
         "accuracy": 23,
         "weight": 11.1,
         "value": 87,
-        "img": "../weapons/combat_shotgun.webp"
+        "img": "../weapons/combat_shotgun.png"
         },
         {"name": "big_boy",
         "damage": 486,
@@ -61,7 +61,7 @@ $(document).ready(function() {
         "accuracy": 39,
         "weight": 30.7,
         "value": 512,
-        "img": "../weapons/big_boy.webp"
+        "img": "../weapons/big_boy.png"
         },
         {"name": "missile_launcher",
         "damage": 150,
@@ -70,7 +70,7 @@ $(document).ready(function() {
         "accuracy": 65,
         "weight": 21,
         "value": 314,
-        "img": "../weapons/missile_launcher.webp"
+        "img": "../weapons/missile_launcher.png"
         },
         {"name": "overseers_guardian",
         "damage": 55,
@@ -79,7 +79,7 @@ $(document).ready(function() {
         "accuracy": 76,
         "weight": 11.1,
         "value": 117,
-        "img": "../weapons/overseers_guardian.webp"
+        "img": "../weapons/overseers_guardian.png"
         }
     ];
 
