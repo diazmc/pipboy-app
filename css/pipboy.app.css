@@ -109,6 +109,8 @@ li.nav-item.active::before {
     filter: grayscale(1) sepia(100%) hue-rotate(55deg) saturate(7) brightness(1) contrast(2);
 }
 
+
+
 .pip-footer {
     position: fixed;
     bottom: 0;
@@ -233,6 +235,7 @@ li.nav-item.active::before {
 }
 
 .img-responsive {
+    margin-top: 5px;
     width: 100%;
     filter: grayscale(1) brightness(200) contrast(0) sepia(100%) hue-rotate(55deg) saturate(20);
 }
@@ -245,6 +248,11 @@ li.nav-item.active::before {
 
 .stat-numbers img.helmet-icon {
     width: 110%;
+}
+
+.stat-numbers .points {
+    margin-left: -5px;
+    margin-top: 5px;
 }
 
 .spacer {
