@@ -50,4 +50,10 @@ $(document).ready(function() {
             }
         };
     });
+
+    var interval = setInterval(function() {
+        var momentNow = moment();
+        $('#time').html(momentNow.format('hh:mm:ss A'));
+    }, 100);
+
 });
