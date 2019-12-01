@@ -183,6 +183,11 @@ li.nav-item.active::before {
     padding: 5px 10px;
 }
 
+.pip-footer .col-12 {
+    background: rgba(16, 255, 0, 0.15);
+    padding: 21px 10px;
+}
+
 .pip-footer .col-6 {
     margin: 0px 5px;
     flex: 0 0 48%;
@@ -310,7 +315,8 @@ li.nav-item.active::before {
     padding-left: 25px;
 }
 
-.item-list li a:hover {
+.item-list li a:hover,
+.radio-list li a:hover {
     background: #00F700;
     color: #272b23;
     text-decoration: none;
@@ -347,3 +353,27 @@ li.nav-item.active::before {
     margin-bottom: 2px;
 }
 
+.radio-list {
+    margin-top: 50px;
+    float: left;
+    padding: 0px;
+    list-style: none;
+}
+
+.radio-list li a {
+    display: block;
+    width: 300px;
+    padding: 5px 10px;
+    border-radius: 2px;
+    color: #00F700;
+    padding-left: 25px;
+    font-size: 22px;
+}
+
+.radio-list li a.signal {
+    color: rgba(16, 255, 0, 0.15);;
+}
+
+.radio-list li a.signal:hover {
+    background: none;
+}
