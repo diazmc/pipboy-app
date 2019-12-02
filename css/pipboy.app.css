@@ -380,8 +380,9 @@ li.nav-item.active::before {
 
 .data-stats {
     position: absolute;
+    top: 100px;
     right: 80px;
-    width: 440px;
+    width: 400px;
     bottom: 340px;
 }
 
